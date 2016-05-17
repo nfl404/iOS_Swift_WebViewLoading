@@ -1,0 +1,36 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - ReachabilitySwift (2.3.3)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - ReachabilitySwift (from `https://github.com/ashleymills/Reachability.swift`)
+
+EXTERNAL SOURCES:
+  ReachabilitySwift:
+    :git: https://github.com/ashleymills/Reachability.swift
+
+CHECKOUT OPTIONS:
+  ReachabilitySwift:
+    :commit: fa90df50c04f5743fbdf643cbe8d10562d75673d
+    :git: https://github.com/ashleymills/Reachability.swift
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
+
+COCOAPODS: 0.39.0
